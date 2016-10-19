@@ -1,0 +1,14 @@
+<h1>products</h1>
+<div id='addProduct'>
+  <form ng-submit='create()'>
+    <input type='text' ng-model='form.name' placeholder='name'/>
+    <input type='number' ng-model='form.quantity' placeholder='quantity' min='1'/>
+    <input type='submit' />
+  </form>
+</div>
+<div id='productList'>
+  <div class='product' ng-repeat='product in products'>
+    <p class='title'>{{product.name}}</p>
+    <p>{{product.quantity}} in stock</p>
+  </div>
+</div>

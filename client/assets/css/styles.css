@@ -1,0 +1,12 @@
+* {
+  font-family: sans-serif;
+}
+header {
+  padding: 1em;
+  border-bottom: 1px solid #000;
+  margin-bottom: .5em;
+}
+
+nav li {
+  display: inline-block;
+}
